@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="valid.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phone</div>
+            <input autocomplete="off" type="text" name="email" id="email">
+            <div id="email_error" class="error-message">zeenathroquiya@gmail.com</div>
+            
+            <div class="font font2">Password</div>
+            <input type="password" name="password" id="password">
+            <div id="pass_error" class="error-message">zeenath123</div>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
